@@ -111,7 +111,7 @@ a:hover{
 
 .about-hero {
     height: 60vh;
-    background: linear-gradient(rgba(30, 41, 59, 0.8), rgba(30, 41, 59, 0.8)), url('assets/Gemini_Generated_Image_4u6l3b4u6l3b4u6l.png');
+    background: linear-gradient(rgba(30, 41, 59, 0.8), rgba(30, 41, 59, 0.8)), url('assets/about-img.png');
     background-size: cover;
     background-position: center;
     display: flex;
