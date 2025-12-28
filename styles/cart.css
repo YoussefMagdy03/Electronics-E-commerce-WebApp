@@ -12,9 +12,8 @@ body {
     color: var(--dark);
 }
 
-a {
+.header-container a {
     all: unset;
-
 }
 
 a:hover {
@@ -54,6 +53,17 @@ a:hover {
     color: var(--dark);
     margin-right: 20px;
     font-weight: 500;
+    display: inline-block;
+}
+
+.nav-links a:hover,
+.header-icons i:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+}
+
+.header-icons i {
+    cursor: pointer;
 }
 
 .cart-wrapper {
