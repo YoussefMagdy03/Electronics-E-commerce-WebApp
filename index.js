@@ -102,11 +102,6 @@ function filterProducts(x) {
 
 }
 
-var productItem = document.getElementsByClassName("products")[0]
-/**
- * Renders products for the main shop page
- * Includes Add to Cart functionality
- */
 function drawShopProduct(data) {
     var productContainer = document.getElementsByClassName("products")[0];
     if (!productContainer) return;

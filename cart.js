@@ -90,9 +90,7 @@ function AddQuantity(product) {
     if (productIndex !== -1) {
         productsAddedToCart[productIndex].quantity++;
 
-        if (productsAddedToCart[productIndex].quantity <= 0) {
-            productsAddedToCart.splice(productIndex, 1);
-        }
+        
     }
 
     localStorage.setItem('cart', JSON.stringify(productsAddedToCart));
